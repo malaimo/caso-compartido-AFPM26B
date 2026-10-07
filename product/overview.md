@@ -14,7 +14,7 @@ Microsoft Teams es la herramienta de comunicación y colaboración de Microsoft 
 
 **Cuentas y venta**
 
-- 71% de las cuentas tiene menos de 100 licencias; 28% entre 100 y 1.000; 5% más de 1.000, y ese 5% concentra el 58% de las licencias — brief del caso, §2
+- 71% de las cuentas tiene menos de 100 licencias; 24% entre 100 y 1.000; 5% más de 1.000, y ese 5% concentra el 58% de las licencias — brief del caso, §2
 - Planes: Business Basic → Standard → Premium → Max. Max agrega capacidades avanzadas de reuniones; pasar de Premium a Max cuesta USD 8 por usuario por mes — brief, §3
 - Últimos 12 meses: 94% de las cuentas renovó, 2,4% subió de plan, 3,6% bajó o no renovó — brief, §3
 - Motivos de quienes bajaron o no renovaron, en orden: "pagamos por funciones que no usamos", costo, "el equipo ya usa otras herramientas" — brief, §3/§4
