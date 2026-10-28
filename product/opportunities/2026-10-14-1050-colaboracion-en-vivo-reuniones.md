@@ -1,10 +1,17 @@
 ---
-status: framed
+status: discarded
 segment: Team Leads y mandos medios de cuentas Business Premium (≥100 licencias, sector tecnología, ≥3 países, facturación >USD 100M) que conducen reuniones de más de 5 personas para producir algo en conjunto
 personas: lucia-ferreyra, ramiro-gutierrez, hector-salinas, sofia-arrieta (negativa); pendiente Team Lead de tecnología (primary)
 ---
 
 # Oportunidad: el trabajo colaborativo se va de las reuniones de Teams
+
+## Por qué se descartó (2026-10-28)
+
+- **La creencia de value quedó contradicha dos veces.** En el 74% de los casos la herramienta ya existía y se siguió usando: el trabajo vive en documentos, Jira y dashboards, no en un tablero improvisado. El caso exacto de la creencia (pizarra creada para la reunión, con fricción) cubre solo al 18% de los Team Leads — `product/insights/2026-10-28-0945-colaboracion-en-vivo-fuera-de-teams.md`. Las entrevistas lo repiten: los tableros de Miro se usan durante años por la continuidad — `product/insights/2026-10-28-1022-entrevistas-colaboracion-en-vivo.md`.
+- **La creencia de viability quedó debilitada por el mercado.** Nadie cobra extra por colaborar dentro de la reunión, y consolidar licencias de Miro da un ahorro menor que el upgrade — `product/research/2026-10-14-1133-colaboracion-en-vivo-reuniones.md`.
+- **El dolor está en el cierre, no en el acceso.** En la encuesta, cierre y continuidad suman 36 menciones contra 11 de acceso; en las entrevistas, los 10 contaron un incidente de una decisión mal ejecutada. El trabajo sigue en `product/opportunities/2026-10-28-1041-decisiones-que-no-llegan.md`.
+- **Se puede reabrir acotada al subsegmento de pizarras** (18% de los Team Leads; 75% con fricción). Si se retoma, la corrección mínima es la persistencia de Whiteboard: que sobreviva a la reprogramación o a una nueva serie de reuniones.
 
 En las cuentas Premium de tecnología con equipos distribuidos, cuando una reunión de más de 5 personas tiene que producir algo en conjunto, el trabajo se va de Teams a Miro, Mural o FigJam (38% de esas reuniones). El traspaso cuesta minutos y deja participantes afuera, y cuando se intenta quedarse en Teams se abandona enseguida. Es el momento de mirarlo porque el upgrade a Max del segmento está en 3,1%, IT no encuentra un problema de reuniones que justifique el plan y CollabCon es en 5 meses.
 
