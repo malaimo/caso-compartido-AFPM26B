@@ -1,0 +1,152 @@
+---
+survey: product/surveys/2026-10-21-1944-colaboracion-en-vivo-fuera-de-teams.md
+date: 2026-10-21
+mode: exploration
+status: published
+---
+
+# Guía de entrevista: trabajo colaborativo en reuniones grandes, dentro y fuera de Teams
+
+- **Objetivos de aprendizaje:**
+  - **O1. Qué se hace afuera y por qué.** Qué actividad concreta hace el grupo sobre un artefacto compartido (aportar, agrupar, votar, editar, señalar datos) y por qué se hace donde se hace: función que falta en Teams, invitados externos, hábito o estándar del área, o el artefacto ya vive ahí. *Decisión:* qué actividad tendría que cubrir cualquier solución.
+  - **O2. Vida del artefacto.** Qué pasa con el tablero o documento antes, durante y después de la reunión. *Decisión:* si el artefacto mayormente preexiste, la oportunidad se reformula como integración y no como colaboración en vivo.
+  - **O3. Cómo se llega a la decisión y dónde queda.** Cómo prioriza y decide el grupo, dónde se traba y qué trabajo le queda al Team Lead para que la decisión se registre y se cumpla. La colaboración no se reduce a pizarras: incluye capacidades que ayuden a colaborar y decidir. Complementa el O3 de la encuesta. *Decisión:* si el dolor está en converger y registrar la decisión, el espacio de solución se abre hacia facilitación y captura de decisiones.
+- **Fuera de alcance de esta guía:** el costo de acceso en minutos y el peso de los externos (lo cuantifica la encuesta, O2 de la encuesta) y el freno al upgrade desde IT (ronda aparte con IT).
+- **Perfil del participante:** Team Lead o mando medio, empleado de la cuenta (no contratista ni IT), que conduce 2 o más reuniones de Teams de más de 5 participantes por semana, en cuentas Business Premium de 100+ licencias, sector tecnología, operación en 3+ países, facturación > USD 100M.
+- **Modo:** exploración. No hay idea ni prototipo que mostrar; la guía no tiene sección de estímulo.
+- **Duración:** 30 minutos (lo que promete el opt-in de la encuesta).
+- **Idioma de las entrevistas:** español, con trato de "tú" (participantes en México, Colombia, Argentina, Chile, Perú y España).
+
+## Antes de cada entrevista
+
+- Tener a mano las respuestas de la encuesta del participante: Q1 (cuánto sale), Q2 (herramienta), Q4 (origen del artefacto), Q6 (minutos), Q8 (externos), Q9 (dónde queda la decisión), Q10 (uso de lo nativo) y Q11/Q12 (abiertas). No leérselas: sirven para notar cuándo el relato contradice lo que marcó, y esa contradicción es un dato.
+- Pedir consentimiento para grabar.
+
+## Reglas para quien entrevista
+
+- **No nombrar primero** Whiteboard, Loop, Copilot, IA ni ninguna función de Teams. Si el participante las menciona, preguntar por lo que pasó cuando las usó, no por su opinión.
+- **No defender Teams** ni explicar funciones. Si el participante se queja, preguntar "¿qué pasó después?", no corregir.
+- **Anclar todo en una reunión concreta** y reciente. Si el participante generaliza ("normalmente..."), volver: "¿y en esa reunión en particular?".
+- **Reuniones con externos:** si la razón de salir de Teams son los invitados externos, anotarlo y preguntar si lo mismo pasa en reuniones sin externos. Una explicación que solo vale con externos habla de otro segmento (consultores y agencias), no del Team Lead que conduce reuniones internas.
+- **Otras herramientas de reunión:** si el participante menciona reuniones que hace en Slack, Meet u otra herramienta, anotarlo sin profundizar. Mudar la reunión entera fuera de Teams es otra línea ("el equipo ya usa otras herramientas") y esta guía no la cubre.
+- **Costo de acceso:** si aparecen los minutos perdidos en permisos o entradas, anotarlos sin profundizar (lo cuantifica la encuesta).
+- **No explicar funciones de Teams** aunque el participante pregunte si existen ("¿eso hay en Teams?"). Responder "cuéntame cómo lo resolvieron" y seguir.
+
+## Calentamiento (3 min)
+
+W1. Cuéntame brevemente qué hace tu equipo y qué reuniones conduces en una semana típica.
+   - Probes: ¿Cuántas personas suelen estar? ¿Desde cuántos países?
+   > Confirma perfil (conduce reuniones de más de 5, equipo multipaís). La presencia de externos ya está en la encuesta (Q8); no preguntarla acá.
+
+## Cuerpo
+
+*Ancla para todo el cuerpo:* "Quiero que pensemos en una reunión concreta: la última reunión de Teams de más de 5 personas que condujiste en la que el grupo trabajó junto sobre algo, por ejemplo un tablero, un documento, una lista o unos datos."
+
+> El ancla dice "reunión de Teams" para que nadie elija una reunión hecha en Slack u otra herramienta, pero no menciona "fuera de Teams" a propósito: sirve igual para quien sale y para quien no sale, y deja que la herramienta aparezca en el relato.
+>
+> *Definición para quien entrevista:* "fuera de Teams" es cualquier trabajo sobre una herramienta que no es de Teams, se vea en pantalla compartida o por enlace. Compartir pantalla de Jira es "fuera" aunque ocurra en la llamada. No usar esta definición con el participante; sirve para clasificar lo que cuenta.
+
+### O1. Qué se hace afuera y por qué (11 min)
+
+**Creencia en riesgo:** los Team Leads sacan el trabajo colaborativo de Teams porque la colaboración nativa no cubre lo que necesitan hacer en vivo, no por hábito, por externos ni porque el artefacto ya viva afuera.
+**Estamos equivocados si** la razón que aparece en los relatos es "así se hace en el área", "el tablero ya estaba ahí", "lo pidió el cliente o el contratista", o si nunca probaron nada dentro de Teams y no saben qué hay (eso es desconocimiento, no falta de función).
+
+Q1. Llévame por esa reunión desde que empezó: ¿qué tenían que lograr y qué hizo el grupo, paso a paso?
+   - ¿Dónde estaba eso sobre lo que trabajaban?
+   - ¿Cómo lo veía el resto: en tu pantalla compartida o cada uno lo abría por su lado?
+   - ¿Qué hacía la gente ahí concretamente: escribir, mover cosas, votar, señalar algo?
+   - ¿Quién tocaba y quién solo miraba? ¿Por qué?
+   - ¿Hubo alguien que casi no intervino? ¿Qué hacía mientras tanto?
+
+Q2. ¿Cómo terminaron usando [la herramienta que nombró] para esa parte?
+   > *Si el artefacto es el sistema de trabajo del equipo (Jira, Grafana, Confluence, un dashboard), no preguntar por qué se eligió: la respuesta es "ahí vive todo". Hacer solo el tercer probe y pasar a Q2b.*
+   - ¿Quién la eligió y cuándo?
+   - ¿Siempre se hace ahí o fue esa vez?
+   - ¿Alguna vez intentaron hacer eso mismo de otra forma? ¿Qué pasó?
+   - Solo si no apareció antes: ¿alguna vez esa parte se hizo con algo de la propia reunión de Teams, sin abrir otra herramienta? ¿Cómo fue?
+
+Q2b. ¿Hay otra reunión tuya de más de 5 personas en la que el grupo trabaje de otra forma sobre algo compartido? Cuéntame la última.
+   - ¿Dónde estaba eso sobre lo que trabajaban?
+   - ¿Quién lo armó y para qué reunión?
+   - ¿Por qué ahí y no en otro lado?
+   - ¿Qué pasó la última vez que intentaron hacer eso de otra forma?
+   > Q2b existe porque el mismo Team Lead puede salir de Teams en una reunión y no en otra (refinamiento sobre Jira vs. retro o planning en un tablero armado para la sesión). Una sola reunión ancla no alcanza para ver el motivo.
+
+*Variante si en ninguna de las dos reuniones se trabajó sobre algo fuera de la llamada:* Q2 → "Esa parte, ¿cómo la resolvieron sin salir de la llamada?" Probes: ¿qué funcionó?, ¿qué costó?, ¿alguna vez usaron otra herramienta y la dejaron? ¿por qué?
+
+### O2. Vida del artefacto (6 min)
+
+**Creencia en riesgo:** el artefacto externo se crea para esa reunión (y por eso el problema es colaborar en vivo).
+**Estamos equivocados si** el tablero o documento ya existía, lo usan otras personas fuera de la reunión y sigue vivo después (Jira, Confluence, dashboards). En ese caso el problema es de integración, no de colaboración en vivo.
+
+*Qué artefacto:* Q3 y Q4 van sobre el artefacto creado para la reunión, si apareció en Q2 o Q2b. Si no hubo ninguno, sobre el que el grupo editó. Si nadie editó nada, sobre el principal que se compartió. Nombrarlo al preguntar ("ese Miro", "ese doc").
+
+Q3. Ese tablero o documento, ¿de dónde salió? Cuéntame qué pasó con él antes de la reunión.
+   - ¿Quién lo armó, cuándo y cuánto le llevó?
+   - ¿Existía de antes para otra cosa?
+   - ¿Quién más lo usa fuera de estas reuniones?
+
+Q4. ¿Y después de la reunión? ¿Cuándo fue la última vez que alguien lo abrió, y para qué?
+   - ¿Dónde está hoy?
+   > Lo que se copia a otro lugar (Jira, actas, hilos) se pregunta en Q6, no acá.
+
+### O3. Cómo se llega a la decisión y dónde queda (7 min)
+
+**Creencia en riesgo:** lo que más le cuesta al Team Lead es que el grupo converja a una decisión y que esa decisión quede registrada y se cumpla, y hoy eso ocurre fuera de Teams.
+**Estamos equivocados si** las decisiones salen sin fricción y quedan registradas donde trabaja el equipo sin trabajo manual del Team Lead, o si no recuerda ninguna decisión perdida o mal ejecutada en los últimos meses. En ese caso, la facilitación y la captura de decisiones no son la palanca.
+
+Q5. En esa reunión, ¿qué se decidió?
+   - ¿Cómo llegaron a eso?
+   - ¿Quién terminó decidiendo, y en qué momento quedó decidido?
+   - ¿Hubo un momento en que se trabó? ¿Qué hiciste para destrabarlo?
+   - Cuando algo no se cierra en la reunión, ¿qué pasa con eso después? ¿Cuándo se terminó decidiendo?
+
+Q6. Una vez decidido, ¿qué pasó para que eso quedara registrado y se cumpliera? ¿Quién lo hizo y dónde quedó?
+   - ¿Qué parte te tocó a ti y cuánto te llevó?
+   - ¿Queda en algún otro lugar además de ese?
+   - ¿Alguien se enteró tarde o entendió otra cosa?
+   - Piensa en la última vez que algo que se decidió en una reunión terminó hecho distinto de lo acordado. ¿Qué pasó entre la reunión y eso?
+   > La pregunta no asume que el Team Lead registra la decisión (a veces lo hace alguien del equipo en un hilo) y el último probe habla del caso, no de su desempeño: preguntado como falla propia, la respuesta se vuelve defensiva.
+
+*Variante si en esa reunión no se decidió nada:* "Piensa en la última reunión grande de Teams en la que sí se tomó una decisión", y seguir con Q5.
+
+## Cierre (3 min)
+
+C1. ¿Hay algo sobre cómo trabaja tu equipo en las reuniones que no te pregunté y debería haberte preguntado?
+C2. ¿Conoces a otro líder que conduzca reuniones grandes de una forma muy distinta a la tuya? ¿Aceptaría una conversación como esta?
+   > Apunta a sumar participantes que contradicen la creencia.
+C3. Agradecer y explicar qué pasa con lo que compartió.
+
+## Mapa objetivo → pregunta
+
+| Objetivo | Preguntas | Decisión que alimenta |
+|---|---|---|
+| Perfil | W1 | Confirmar que el participante es del segmento |
+| O1 | Q1, Q2, Q2b | Qué actividad cubrir y por qué hoy sale |
+| O2 | Q3, Q4 | Colaboración en vivo o integración |
+| O3 | Q5, Q6 | Si la facilitación y la captura de decisiones son la palanca |
+| Reclutamiento | C1, C2 | Cobertura y próximos participantes |
+
+## Plan de reclutamiento
+
+**Canales.** La fuente principal son los encuestados que aceptaron conversar en el bloque de opt-in de la encuesta (`product/surveys/2026-10-21-1944-colaboracion-en-vivo-fuera-de-teams.md`). Esos opt-ins vendrán de los canales definidos en la sección **Distribución** de esa encuesta (email a organizadores del segmento y panel B2B); no se repiten acá. Candidatos elegibles: R3 = "Sí", R1 = "No" (no es IT), R2 = "2 o 3" o "4 o más".
+
+Selección por respuestas, primero los que contradicen la creencia (enseñan más):
+
+| Grupo | Criterio en la encuesta | Entrevistas |
+|---|---|---|
+| No salen | Q1 = "En ninguna" | 3 a 4 |
+| Salen, pero el artefacto preexiste o no les cuesta | Q1 ≠ "En ninguna" y (Q4 = "Ya existía..." o Q6 = "Menos de 1 minuto" / "Entre 1 y 2 minutos") | 3 a 4 |
+| Salen y confirman | Q4 = "Se creó para esa reunión..." y Q6 ≥ "Entre 5 y 9 minutos" | 2 a 4 |
+
+Dentro de cada grupo: priorizar Q8 = "No" (reuniones sin externos), mezclar los dos canales de la encuesta y cubrir al menos 3 países, con al menos una persona en España (operación en el EEE, riesgo regulatorio señalado en el research).
+
+**Canal propio solo para lo que la encuesta no cubre.** Si el 26/10 el grupo "No salen" tiene menos de 3 opt-ins, pedir al mismo panel B2B una cuota específica de Team Leads que no usan herramientas externas en reuniones, filtrados con el screener de abajo. Es el hueco que la propia encuesta ya anticipa.
+
+**Screener** (para reclutas del panel fuera de la encuesta, o para confirmar por correo antes de agendar):
+
+1. En el último mes, ¿cuántas reuniones de Microsoft Teams de más de 5 participantes condujiste por semana, en promedio? [0 o 1 / 2 o 3 / 4 o más] → **descalificar** si "0 o 1".
+2. ¿Cuál describe mejor tu rol? [Lidero un equipo o área dentro de la empresa / Administro Microsoft 365 o Teams (IT) / Soy consultor, contratista o trabajo sobre todo con clientes externos / Otro] → **descalificar** todo lo que no sea "Lidero un equipo o área". El perfil de consultor queda fuera del segmento.
+3. ¿En qué sector está tu empresa y en cuántos países tiene equipos? [Tecnología o software y 3 o más países / otra combinación] → **descalificar** si no es tecnología con 3 o más países.
+
+**Cuántas.** Entre 8 y 12 entrevistas de 30 minutos, del 26/10 al 27/10/2026 (la encuesta cierra el 25/10). Cortar antes si hay saturación: cuando tres entrevistas seguidas no traen una actividad, un motivo o un destino de la decisión nuevos. Corte de decisión de la oportunidad: 27/10/2026.
