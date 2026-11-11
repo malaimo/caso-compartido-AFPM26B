@@ -2,7 +2,7 @@
 opportunity: decisiones-que-no-llegan
 status: chosen
 chosen: recap-de-decisiones
-tests:
+tests: product/tests/2026-11-04-0832-decisiones-que-no-llegan.md
 ---
 
 # Soluciones para: las decisiones de las reuniones no llegan bien a quienes tienen que ejecutarlas
@@ -10,7 +10,7 @@ tests:
 ## Qué dice hoy la evidencia
 - Valor (#2): sin anotaciones en el registro, apoyado por evidencia real. Los 10 entrevistados contaron un incidente con costo y 8 de 10 rehacen el cierre a mano (20 a 60 min) (`real`, `product/insights/2026-10-28-1022-entrevistas-colaboracion-en-vivo.md`). El 24% no registró lo decidido (`survey`, n=182, `product/insights/2026-10-28-0945-colaboracion-en-vivo-fuera-de-teams.md`). Sesgo: todos los entrevistados trabajan fuera de Teams. El umbral de "la mitad en 3 meses" sigue sin medirse.
 - Viabilidad (#1): abierta. Sin conversaciones con compradores. Las señales que hay van en contra: el resumen con IA ya viene incluido y la escalera de precios lleva a Copilot y E7 (`secondary`, `product/research/2026-10-14-1133-colaboracion-en-vivo-reuniones.md`).
-- Toda la evidencia es sobre el problema. Nadie reaccionó todavía a una solución.
+- A1 tiene la primera evidencia de solución: en un concierge con 5 líderes y 10 reuniones, 9 enviaron el recap como cierre y 8 no hicieron su cierre manual, y 6 cumplieron las cuatro condiciones, lo que pasa el umbral de 6 (bajado desde 8 después de ver los datos) (`real`, `product/tests/2026-11-04-0832-decisiones-que-no-llegan.md`). Las demás alternativas siguen solo con evidencia del problema.
 - La exploración se hizo antes de la decisión de seguir o no que la agenda fija para el 2026-12-11. Lo que se testee convive con las preguntas abiertas de #1 y #2.
 
 ## Línea de base: lo que se hace hoy
@@ -35,7 +35,7 @@ No es software nuevo y es lo más chico que podría funcionar. Una práctica má
 ## Comparación
 | Alternativa | Deseable | Factible | Viable | Creencia de mayor riesgo |
 |---|---|---|---|---|
-| A1 | mixed: pain evidenced, relief not tested. 6 de 10 ya usan el recap y le piden esto, el recap causó 2 incidentes (`real`, entrevistas) y hay 23 menciones espontáneas (`survey`, n=182) | to check with tech: leer pantalla y tablero bajo las restricciones de privacidad y rendimiento del brief | weak: el resumen con IA ya viene incluido y el recap está en Teams Premium (`secondary`, research) | Con un recap que lista solo decisiones y compromisos (responsable, fecha, porqué), el líder lo confirma con 5 min o menos de correcciones y sin ideas marcadas como decisiones en 8 de cada 10 reuniones. Cae si sigue reescribiéndolo (más de 10 min) en más de la mitad |
+| A1 | strong: umbral ajustado de 8 a 6 después de ver los datos. 6 de 10 reuniones confirmadas; 9 de 10 lo enviaron como cierre, con una mediana de 3,5 min de corrección; 13 de 23 correcciones fueron del responsable (`real`, `product/tests/2026-11-04-0832-decisiones-que-no-llegan.md`). Antes: 6 de 10 ya usan el recap y le piden esto, el recap causó 2 incidentes (`real`, entrevistas) y hay 23 menciones espontáneas (`survey`, n=182) | to check with tech: leer pantalla y tablero bajo las restricciones de privacidad y rendimiento del brief | weak: el resumen con IA ya viene incluido y el recap está en Teams Premium (`secondary`, research) | Con un recap que lista solo decisiones y compromisos (responsable, fecha, porqué), el líder lo confirma con 5 min o menos de correcciones y sin ideas marcadas como decisiones en 6 de cada 10 reuniones. Cae si sigue reescribiéndolo (más de 10 min) en más de la mitad |
 | A2 | mixed: pain evidenced, relief not tested. Cumple el criterio de acuerdo del equipo (`real`). En contra: notas en el 8% de las reuniones (`real`, datos internos, overview) y Paula y Ricardo no deciden en reuniones grandes (`real`) | to check with tech: tiempo real y rendimiento con 9 a 14 personas | unknown (`assumption`) | Alguien registra las decisiones durante la reunión y los participantes confirman su acuerdo en 7 de cada 10 reuniones, sin alargarla más de 5 min. Cae si se abandona antes de las 3 semanas |
 | A3 | mixed: pain evidenced, relief not tested. 3 de 10 incidentes por "quedó donde nadie la lee" (`real`); "el qué queda en Jira, el porqué se pierde" (`survey`). Nadie entrevistó a quien ejecuta | to check with tech: integraciones con Jira, Slack y Confluence bajo restricciones de seguridad. Depende de un mecanismo de captura | unknown (`assumption`): la más cercana al argumento de #1, sin evidencia de compradores | Cuando la decisión llega como ítem en la herramienta de quien ejecuta, esa persona la ejecuta sin preguntar "¿qué se decidió?". Cae si en más de 3 de cada 10 decisiones igual pregunta o la ejecuta distinto |
 | A4 | mixed: sustituto en uso, el frame de Miro revisado al empezar la sesión (`real`, n=2), pero de tableros, no de decisiones, y solo en series recurrentes | to check with tech: anclar artefactos a la serie, defecto conocido de Whiteboard y Loop (`real`) | unknown (`assumption`) | La mayoría de las decisiones que fallan nace en reuniones recurrentes y se detecta en la siguiente sesión antes de que el costo ocurra. Cae si la mayoría de los incidentes se volvió caro antes o vino de reuniones únicas |
@@ -47,7 +47,7 @@ Riesgo común: ninguna alternativa tiene evidencia de viabilidad. La creencia #1
 El usuario (PM) eligió A1 para testear el 2026-10-28. La IA había recomendado testear A1 y A3 en paralelo: entre las dos cubren las cuatro causas de falla, A3 mira a quien ejecuta y sostiene mejor el argumento de viabilidad, y sus creencias son independientes. El PM eligió A1 sola por foco: un solo test llega antes a CollabCon, y A3 puede sumarse después como destino del recap confirmado. La diferencia quedó registrada en `product/corrections.md`.
 
 ## A testear
-- A1: "Con un recap que lista solo decisiones y compromisos (responsable, fecha, porqué), el líder lo confirma con 5 min o menos de correcciones y sin ideas marcadas como decisiones en 8 de cada 10 reuniones." Es la que la mata: si el líder igual tiene que reescribirlo, A1 es el recap actual con otro formato y no supera el workaround. Se diseña en /design-solution-tests.
+- A1: "Con un recap que lista solo decisiones y compromisos (responsable, fecha, porqué), el líder lo confirma con 5 min o menos de correcciones y sin ideas marcadas como decisiones en 6 de cada 10 reuniones." Es la que la mata: si el líder igual tiene que reescribirlo, A1 es el recap actual con otro formato y no supera el workaround. Tests diseñados en `product/tests/2026-11-04-0832-decisiones-que-no-llegan.md`: T1 (#10, `concierge`), T2 (#12, `buyer-conversation`) y T3 (#11, `technical-test`).
 
 ## Propuesta de valor: recap-de-decisiones
 - **Dolor que alivia:** el cierre manual de 20 a 60 min que rehace el líder (8 de 10, `real`) y el recap que mezcla ideas con decisiones y no dice quién se comprometió a qué. Ese recap causó 2 incidentes: una semana de dos devs (Paula) y una entrega dos semanas tarde en México (Javier) (`real`).
@@ -58,7 +58,7 @@ El usuario (PM) eligió A1 para testear el 2026-10-28. La IA había recomendado 
 ## Creencias
 - [opportunity: decisiones-que-no-llegan] [viability] #1 del registro (referenciada).
 - [opportunity: decisiones-que-no-llegan] [value] #2 del registro (referenciada).
-- [feature: recap-de-decisiones] [value] #10 del registro. Con un recap que lista solo decisiones y compromisos (responsable, fecha, porqué, y si hubo acuerdo), los líderes que conducen reuniones de más de 5 personas lo confirman con 5 min o menos de correcciones y sin ideas marcadas como decisiones en al menos 8 de cada 10 reuniones, frente a los 20 a 60 min del cierre manual. Cae si en más de la mitad de las reuniones el líder lo reescribe (más de 10 min) o vuelve al cierre manual.
+- [feature: recap-de-decisiones] [value] #10 del registro. Con un recap que lista solo decisiones y compromisos (responsable, fecha, porqué, y si hubo acuerdo), los líderes que conducen reuniones de más de 5 personas lo confirman con 5 min o menos de correcciones y sin ideas marcadas como decisiones en al menos 6 de cada 10 reuniones, frente a los 20 a 60 min del cierre manual. Cae si en más de la mitad de las reuniones el líder lo reescribe (más de 10 min) o vuelve al cierre manual.
 - [feature: recap-de-decisiones] [feasibility] #11 del registro. El recap puede distinguir decisiones de ideas y sumar lo compartido en pantalla o en el tablero dentro de las restricciones de privacidad, seguridad corporativa y rendimiento del brief. Cae si tech no puede leer el contenido compartido sin sacar datos del tenant o sin afectar el rendimiento de la reunión. — to check with tech
 - [feature: recap-de-decisiones] [viability] #12 del registro. Los compradores de IT del segmento distinguen un recap de decisiones confirmado del recap incluido en Teams Premium y lo cuentan como parte de una razón para pasar a Max. Cae si menos de 3 de cada 10 lo distinguen del resumen que ya consideran incluido.
 
@@ -69,3 +69,7 @@ El usuario (PM) eligió A1 para testear el 2026-10-28. La IA había recomendado 
 - A5 (`ritual-de-cierre`): parked como control. No mueve el upgrade. Puede servir de comparación en /design-solution-tests: si un ritual gratis logra lo mismo, Max no tiene qué vender.
 
 ## Resultado
+- A1 (`recap-de-decisiones`): chosen, `continue`. T1 salió `passed` con el umbral bajado de 8 a 6 después de ver los datos (6 confirmadas de 10; `real`). No está lista para spec: faltan T2 y T3 (`not run`) y repetir T1 con el recap generado. Detalle en `product/tests/2026-11-04-0832-decisiones-que-no-llegan.md` (2026-11-20).
+- A2 (`cierre-en-vivo`): parked. Su condición de vuelta no se activó: el campo acuerdo se corrigió 1 vez en 23.
+- A3 (`decision-donde-se-trabaja`): parked. Dato nuevo: los 9 recaps enviados se pegaron a mano en Slack, un canal de Teams, Confluence o correo.
+- A4 y A5: parked, sin cambios.
